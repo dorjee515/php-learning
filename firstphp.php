@@ -15,8 +15,8 @@
             echo "<br>";
            echo "Lorem ipsum dolor sit amet.";
          //declaring varibles
-           $var1=34;    //dynamic type
-           $var2=43;
+           $var1=1;    //dynamic type
+           $var2=2;
            echo "<br>";
         //  arithmatic operator
         echo $var2 + $var1;
@@ -40,7 +40,8 @@
         //  incre/decre operator
         echo "<br>";
         //  logical operator
-
+       echo $var1 ^ $var2;
+    
         //end of php tag  ?> 
          
     </div>
