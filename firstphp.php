@@ -38,9 +38,22 @@
         echo "<h1>this is html header</h1>";
         echo "<br>";
         //  incre/decre operator
+        echo $var2;
+        echo "<br>";
+        echo $var2++;
+        echo "<br>";
+        echo $var2--;
+        echo "<br>";
+        echo ++$var2;
+        echo "<br>";
+        echo --$var2;
         echo "<br>";
         //  logical operator
        echo $var1 ^ $var2;
+       $myvar=!(true and false);
+       $myvar=!(true or false);
+       $myvar=(true xor true);
+       echo var_dump($myvar);
     
         //end of php tag  ?> 
          
