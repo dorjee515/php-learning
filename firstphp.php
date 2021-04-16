@@ -11,7 +11,9 @@
         php first code
        
         <?php  //opening tag of php
-            echo "this is echo speacking";
+        //for making constant
+       define('pi',3.14);
+       echo "this is echo speacking";
             echo "<br>";
            echo "Lorem ipsum dolor sit amet.";
          //declaring varibles
@@ -56,7 +58,16 @@
        echo var_dump($myvar);
     
         //end of php tag  ?> 
-         
+         <?php
+         //data types in php
+        //  string
+        //  integer
+        //  float
+        //  boolean
+        //  array
+        //  object 
+        echo pi*2;
+        ?>
     </div>
 </body>
 </html>
