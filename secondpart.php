@@ -84,10 +84,42 @@
          function f1(){
              echo "<br>this is a function";
          }
-         f1();
+         f1();  //function call
 
+           //array 
+         $ar=array("pratap","dinesh","karan","rajan");
+
+         foreach($ar as $val){
+             echo $val;
+             echo "<br>";
+         }
+
+         //associative array has key and value
+
+         $ar2=array("pratap"=>21,"dinesh"=>20,"karan"=>20,"rajan"=>6);
+         foreach($ar2 as $i=>$j){
+          echo "age of ".$i." is ";
+          echo $j;
+          echo "<br>";
+         }
     
-    
+           //multi dimensional array
+
+           $ar3=array(
+               array("pratap",21,"male"),
+               array("dinesh",20,"middleman"),
+               array("karan",20,"female"),
+               array("rajan",6,"gay")
+            );
+            echo "<br>";echo "<br>";echo "<br>";echo "<br>";
+                echo "name ".$ar3[0][0]." age ".$ar3[0][1]." sex ".$ar3[0][2]; 
+                echo "<br>";         
+                echo "name ".$ar3[1][0]." age ".$ar3[1][1]." sex ".$ar3[1][2]; 
+                echo "<br>";          
+                echo "name ".$ar3[2][0]." age ".$ar3[2][1]." sex ".$ar3[2][2]; 
+                echo "<br>";
+                echo "name ".$ar3[3][0]." age ".$ar3[3][1]." sex ".$ar3[3 ][2]; 
+                echo "<br>";echo "<br>";echo "<br>";echo "<br>";echo "<br>";echo "<br>";      
     
     ?>
       
